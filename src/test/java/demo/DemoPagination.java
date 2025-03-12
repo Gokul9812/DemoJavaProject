@@ -53,5 +53,13 @@ public class DemoPagination {
             driver.quit();
         }
     }
+    
+    @After
+    public void tearDown1() {
+        // Close the browser after the test completes
+        if (driver != null) {
+            driver.quit();
+        }
+    }
 }
 
