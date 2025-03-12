@@ -13,6 +13,7 @@ public class TestDemo {
 		WebDriverManager.chromedriver().setup();
 		
 		WebDriver driver = new ChromeDriver();
+		WebDriver driver1 = new ChromeDriver();
 		driver.get("https://www.wikipedia.org/");
 		driver.manage().window().maximize();
 		System.out.println(driver.getCurrentUrl());
